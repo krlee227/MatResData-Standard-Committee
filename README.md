@@ -1,2 +1,3 @@
-# frist-trial
- 처음 시도하는 git repository
+# 2022-2 working site
+ 
+ 2022년 12월을 목표로 작업중
