@@ -9,10 +9,10 @@
 
 # Materials R&D Data Standard Expert Committe
 
-This committee standardizes the data schema and vacabularies of materials R&D data for systematic collection, management and utilization of the data.
-The committee has been active since March 2021, as an affiliated group of the Center for Materials Research Data. 
+The committee is building a standard of schema and vacabularies of materials R&D data. 
+The committee was launched in March 2021, as an affiliated organization of the Center for Materials Research Data. 
 
-Standard schema and vocabulary were periodically published in the form of dictonary in json format. 
+Standard schema and vocabularies were periodically published in the form of dictonary of json format. 
 
-As of Aug. 2022, two versions of the dictionary was published : version 2021-1 on Dec. 2021 and version 2022-1 on Aug. 2022. 
+As of Aug. 2022, two versions of the dictionary was published : version 2021-1 on Dec. 2021 and version 2022-1 on Aug. 2022.  
 
