@@ -6,10 +6,12 @@
 
 표준화된 스키마와 데이터 어휘는 json 포맷의 사전형태로 발간하고 있으며, 지금까지 2021-1 (2021년 12월), 2022-1 (2022년 8월) 버전이 발표되었습니다. 
 
-본 Main branch에는 다음의 두 화일이 있습니다.
+Main branch 화일목록
 
-1. 사전작성 규칙 (2021.10.19 : "Rules for Dictionary 2021-01.pdf") 
-2. 단위표현법 (2022.9.22 : "Unit expression.xlsx")
+1. "Rules for Dictionary 2021-01.pdf" : 사전작성 규칙 (2021.10.19) 
+2. "Unit expression.xlsx" : 단위표현법 (2022.9.22)
+3. "221014 NIST - standard vocabulary Korea - krlee.pdf" : Seminar @ NIST 발표자료 (2022.10.14)
+4. "Structure of Materials R&D Data and Standard Vocabulary Dictionary - Jaeryo Madang (2022).hwp" : 재료마당 발표 논문 (2022.1.)
 
 # Materials R&D Data Standard Expert Committe
 
@@ -22,5 +24,8 @@ As of Aug. 2022, two versions of the dictionary was published : version 2021-1 o
 
 Following files would be found in Main Branch. 
 
-1. Rules for Dictionary (2021.10.19 : "Rules for Dictionary 2021-01.pdf") 
-2. Unit Expression (2022.9.22 : "Unit expression.xlsx")
+1. "Rules for Dictionary 2021-01.pdf" : Rules used for the dictionary preparation (2021.10.19) 
+2. "Unit expression.xlsx" : Recommended unit expression (2022.9.22)
+3. "221014 NIST - standard vocabulary Korea - krlee.pdf" : Viewgraphs for Seminar @ NIST (2022.10.14)
+4. "Structure of Materials R&D Data and Standard Vocabulary Dictionary - Jaeryo Madang (2022).hwp" : Paper published in Jaeryo Madang (in Korean, 2022.1.)
+
