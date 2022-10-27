@@ -22,7 +22,7 @@ Standard schema and vocabularies were periodically published in the form of dict
 
 As of Aug. 2022, two versions of the dictionary was published : version 2021-1 on Dec. 2021 and version 2022-1 on Aug. 2022.  
 
-Following files would be found in Main Branch. 
+File list in Main Branch. 
 
 1. "Rules for Dictionary 2021-01.pdf" : Rules used for the dictionary preparation (2021.10.19) 
 2. "Unit expression.xlsx" : Recommended unit expression (2022.9.22)
