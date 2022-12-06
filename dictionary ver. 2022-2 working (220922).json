@@ -1,12 +1,10 @@
 {
   "dictionary ver. 2022-2": "as of 220920 외부검토의견반영본 (marked by **) ",
   "###": "need more discussion",
-  "test": "test with Thijs",
-  "test2": "more test"
-   
+    
   "metadata vocabulary": {
     "data name": {
-      "eng_definition": "Name of the data set, named by data provider.",
+      "eng_definition": "name of the data set, named by data provider.",
       "var_name": "DataName",
       "data_type": "string",
       "data_example": "Zinc coated Fe-6Mn-3Al steel plate; Ti/Al dissimilar welded joint; Fe/C catalyst; Gd doped MOF 370; LLZO (Li7La3Zr2O12) Solid Electrolyte"
