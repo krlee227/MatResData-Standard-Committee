@@ -1,0 +1,768 @@
+[
+  {
+    "meta": {
+      "data name": "example 3 (not system) special alloy",
+      "contributor": {
+        "name": "Kwang-Ryeol Lee",
+        "affiliation": "KIST",
+        "email address": "krlee@kist.re.kr"
+      },
+      "data generation date": "2022-12-01",
+      "keywords": "special steel, example data",
+      "embargo": "2022-12-31"
+    },
+    "materials": {
+      "material_1": {
+        "name": "Fe-C-Mg alloy with special treatment",
+        "chemical information": {
+          "composition": {
+            "Fe": 97,
+            "C": 1,
+            "Mg": 2,
+            "unit": "at.%"
+          }
+        },
+        "process": [
+          {
+            "heat treatment": {
+              "value": ""
+            }
+          }
+        ],
+        "property": {
+          "mechanical property": {
+            "tensile strength": {
+              "value": 282.3,
+              "uncertainty": 0.5,
+              "measurment": {
+                "tensile test": {
+                  "instrument": "INSTRON Model 5",
+                  "gauge lenth": 5
+                },
+                "raw data": "tensile-1.xls"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "meta": {
+      "data name": "Pt3Ni particle on graphite support data 1",
+      "contributor": {
+        "name": "Jung Hoon Lee",
+        "affiliation": "Computational Science Center, KIST",
+        "email address": "jhlee@kist.re.kr"
+      },
+      "data generation date": "2020-04-28",
+      "keywords": "catalyst, experimental, example data",
+      "related information": "information of material_2 comes from Aldrich catalog\n10.1021/nl401881z",
+      "embargo": "2022-12-31"
+    },
+    "materials": {
+      "material_1": {
+        "name": "Pt3Ni",
+        "chemical information": {
+          "composition": {
+            "Pt": 75,
+            "Ni": 25,
+            "unit": "at.%"
+          },
+          "crystallography": {
+            "Bravis lattice": "cubic",
+            "lattice parameter": {
+              "a": 3.897
+            },
+            "measurement": [
+              {
+                "X-ray diffraction": {
+                  "instrument": "PANalytical X’Pert PRO Alpha-1 diffractometer",
+                  "image": "image_xrd.png"
+                }
+              },
+              {
+                "TEM": {
+                  "instrument": "JEOL ARM200F microscope",
+                  "image": "image_tem.png"
+                }
+              }
+            ]
+          }
+        },
+        "process": {
+          "solvothermal": {
+            "precursor_1": {
+              "name": "platinum(II) acetylacetonate",
+              "amount": 20
+            },
+            "precursor_2": {
+              "name": "nickel(II) acetylacetonate",
+              "amount": 13.1
+            },
+            "solvent_1": {
+              "name": "benzyl ether",
+              "amount": 7
+            },
+            "reducing agent_1": {
+              "name": "W(CO)6",
+              "amount": "50"
+            },
+            "surfactant_1": {
+              "name": "oleylamine",
+              "amount": 0.002
+            },
+            "surfactant_2": {
+              "name": "oleic acid",
+              "amount": 0.001
+            },
+            "temperature": 403,
+            "time": 3
+          },
+          "heat treatment": {
+            "initial temperature": 403,
+            "heating rate_1": 10,
+            "holding temperature_1": 503,
+            "holding time_1": 0.75,
+            "cooling rate_1": 30,
+            "heating rate_2 ": 10,
+            "holding temperature_2": 300,
+            "holding time_2": 0.5,
+            "cooling rate_2": "",
+            "final temperature": 298
+          },
+          "centrifugation": {
+            "revolutions per minute": 6000,
+            "time": 0.1667,
+            "temperature": 298,
+            "additive_1": {
+              "name": "toluene",
+              "amount": 0.005
+            },
+            "additive_2": {
+              "name": "ethanol",
+              "amount": 0.015
+            }
+          }
+        },
+        "property": {
+          "structural property": {
+            "morphology": {
+              "particle": {
+                "shape": "octahedron",
+                "size": {
+                  "diameter": {
+                    "value": 9,
+                    "uncertainty": 0.03
+                  }
+                },
+                "measurement": {
+                  "TEM": {
+                    "instrument": "JEOL ARM200F microscope",
+                    "image": "image_hrtem.png"
+                  }
+                }
+              }
+            },
+            "1D defect": {
+              "type": "edge dislocation",
+              "Burgers vector": "1/3[110]",
+              "density": {
+                "value": 100000000,
+                "uncertainty": 1000
+              },
+              "velocity": {
+                "value": 9.2,
+                "uncertainty": 0.05
+              },
+              "measurement": {
+                "TEM": {
+                  "instrument": "JEOL ARM200F microscope",
+                  "image": "image_hrtem.png"
+                }
+              }
+            },
+            "impurity": {
+              "O": 0.34,
+              "unit": "ppm",
+              "uncertainty": 0.001
+            }
+          }
+        }
+      },
+      "material_2": {
+        "name": "C",
+        "chemical information": {
+          "composition": {
+            "C": 100,
+            "unit": "at.%"
+          }
+        }
+      }
+    },
+    "system": {
+      "description": "Pt3Ni/C catalyst system for CO2 reduction",
+      "configuration": {
+        "active material": "Material_1",
+        "amount of active material": 0.003,
+        "support material": "Material_2"
+      },
+      "process": {
+        "sonication": {
+          "material mix": {
+            "Material_1": 0.02,
+            "Material_2": 0.03
+          },
+          "solvent": "toluene",
+          "temperature": 298,
+          "time": 3
+        },
+        "centrifugation": {
+          "revolutions per minute": "12000",
+          "time": 10,
+          "temperature": 333,
+          "additive_1": {
+            "name": "acetic acid",
+            "amount": 0.02
+          }
+        },
+        "rinsing": {
+          "temperature": 343,
+          "time": 0.5,
+          "additive_1": {
+            "name": "ethanol"
+          }
+        }
+      },
+      "performance": {
+        "electrochemical": {
+          "ORR": {
+            "area-specific activity": {
+              "value": 49,
+              "uncertianty": 0.1
+            },
+            "mass-specific activity": {
+              "value": 0.4,
+              "uncertinty": 0.001
+            },
+            "Faradaic efficiency": {
+              "value": 90,
+              "uncertainty": 0.5
+            },
+            "measurement": {
+              "electrochemical activity": {
+                "instrument": "CHI 730C potentiostat",
+                "temperature": 298,
+                "voltage": 0.9,
+                "graph image": "image_electro_chem.png",
+                "analysis method": "potentiostat"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "meta": {
+      "data name": "example data of porous materials system",
+      "contributor": {
+        "name": "Jung Hoon Lee",
+        "affiliation": "Computational Science Center, KIST",
+        "email address": "jhlee@kist.re.kr"
+      },
+      "data generation date": "2020-10-13",
+      "keywords": "example data",
+      "related information": "artificial data to check the validity of the dictionary",
+      "embargo": "2024-12-31"
+    },
+    "materials": {
+      "material_1": {
+        "name": "Mn2(dobpdc)",
+        "chemical information": {
+          "composition": {
+            "Mn2(dobpdc)": 100
+          },
+          "crystallography": {
+            "Bravis lattice": "Hexagonal",
+            "lattice parameter": {
+              "a": 21.7291,
+              "b": 21.7291,
+              "c": 7.1279,
+              "alpha": 90,
+              "beta": 90,
+              "gamma": 120
+            },
+            "measurement": {
+              "X-ray diffraction": {
+                "instrument": "Beamline 11-BM at the Advanced Photon Source (APS), Argonne National Laboratory, 0.4137 Ang",
+                "temperature": "100 K",
+                "graph image": "image_xrd.png"
+              }
+            }
+          }
+        },
+        "process": {
+          "solvothermal": {
+            "precursor_1": {
+              "name": "H4dobpdc",
+              "amount": "27.4 mg"
+            },
+            "precursor_2": {
+              "name": "MnCl2.4H2O",
+              "amount": "49.5 mg"
+            },
+            "solvent_1": {
+              "name": "ethanol",
+              "amount": "5 mL"
+            },
+            "solvent_2": {
+              "name": "DMF",
+              "amount": "5 mL"
+            },
+            "temperature": 393,
+            "time": 12
+          },
+          "heat treatment": {
+            "atmosphere": "dynamic vacuum",
+            "starting temperature": 393,
+            "constant temperature": 523,
+            "treatment time": 24,
+            "end temperature": 298
+          }
+        },
+        "property": {
+          "structural property": {
+            "surface area": {
+              "BET surface area": {
+                "value": 3019
+              }
+            },
+            "porosity": {
+              "value": 1.23
+            },
+            "measurement": {
+              "N2 gas adsorption": {
+                "instrument": "Micromeritics ASAP2020 gas adsorption analyser",
+                "temperature": 77,
+                "graph image": "image_pore_vol.png",
+                "analysis method": "N2 isotherm "
+              }
+            }
+          }
+        }
+      },
+      "material_2": {
+        "name": "N,N'-dimethylethylenediamine (mmen)",
+        "composition": {
+          "mmen": "100 %"
+        }
+      }
+    },
+    "system": {
+      "description": "mmen-Mn2(dobpdc) for gas adsorption",
+      "configuration": {
+        "framework_1": "Material_1",
+        "grafted molecule": "Material_2",
+        "grafted molecule amount": {
+          "value": 0.002,
+          "uncertainty": 0.0001
+        }
+      },
+      "process": {
+        "mixing": {
+          "component 1": {
+            "name": "material 1",
+            "amount": "100 mg"
+          },
+          "component 2": {
+            "name": "material 2",
+            "amount": "1 mL"
+          },
+          "solvent": {
+            "name": "hexane",
+            "amount": "9 mL"
+          },
+          "temperature": 298,
+          "time": 4
+        },
+        "rinsing": {
+          "atmosphere": "dynamic vacuum",
+          "additives": {
+            "name": "dry hexane",
+            "amount": "10 mL"
+          },
+          "temperature": 373,
+          "time": 4
+        }
+      },
+      "performance": {
+        "absobate_1": {
+          "gas type": "CO2",
+          "adsorption capacity": {
+            "data_1": {
+              "value": 3.4,
+              "temperature": 298,
+              "pressure": 700
+            }
+          },
+          "adsorption enthalpy": {
+            "data_1": {
+              "value": -69,
+              "temperature": 298,
+              "adsorbed amount": 2
+            }
+          }
+        },
+        "measurement": {
+          "gas adsorption isotherm": {
+            "adsorbed gas": "CO2",
+            "instrument": "Micromeritics ASAP2020 gas adsorption analyser",
+            "graph image_1": "image_co2_iso.png",
+            "graph_image_2": "image_co2_enthalpy.png"
+          }
+        }
+      }
+    }
+  },
+  {
+    "meta": {
+
+    },
+    "materials": {
+
+    },
+    "system": {
+
+    }
+  },
+  {
+    "meta": {
+
+    },
+    "materials": {
+
+    },
+    "system": {
+
+    }
+  },
+  {
+    "meta": {
+
+    },
+    "materials": {
+
+    },
+    "system": {
+
+    }
+  },
+  {
+    "meta": {
+      "data name": "example 2 : battery materials for Co2O3 halfcell",
+      "contributor": {
+        "name": "Kwang-Ryeol Lee",
+        "affiliation": "KIST",
+        "email address": "krlee@kist.re.kr"
+      },
+      "data generation date": "2022-11-23"
+    },
+    "materials": {
+      "material_1": {
+        "name": "milled Co3O4 powder",
+        "process": {
+          "ball milling": {
+            "type": "impact",
+            "ratation speed": 300,
+            "milling time": 24,
+            "material": "Co3O4 powder from ABC (d=30um)",
+            "material mass": 30,
+            "ball material": "Al2O3",
+            "ball to material weight ratio": 0.45,
+            "solvent": "NMP"
+          },
+          "drying": {
+            "temperature": 500,
+            "time": 1
+          }
+        },
+        "property": {
+          "structural property": {
+            "morphology": {
+              "particle": {
+                "shape": "sphere",
+                "size": {
+                  "diameter": 0.3
+                },
+                "measurement": {
+                  "TEM": {
+                    "instrument": "TITAN @ KIST",
+                    "mode": "TEM-BF",
+                    "aquisition condition": {
+                      "magnification": 50000,
+                      "exposure time": 100
+                    },
+                    "raw data": {
+                      "image": "TEM-190422_4.dm4"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "material_2": {
+        "name": "Co3O4 slurry for blade coating",
+        "process": {
+          "mixing": {
+            "type": "magnetic stirrer",
+            "material mix": {
+              "carbon black": 10,
+              "PVDF": 100,
+              "1-methyl-2-pyrrolidone": 50,
+              "material_1": 30
+            },
+            "solvent": {
+              "name": "NMP",
+              "amount": 200
+            },
+            "rotation speed": 1000,
+            "temperature": 300,
+            "time": 0.5
+          }
+        },
+        "property": {
+          "rheological property": {
+            "viscosity": {
+              "type": "dynamic",
+              "value": 10,
+              "uncertainty": 0.2,
+              "measurement": {
+                "rheological anlaysis": {
+                  "insrument": "TA instrument",
+                  "temperature": 300
+                }
+              }
+            }
+          }
+        }
+      },
+      "material_3": {
+        "name": "Co3O4 slurry coated on Cu foil current collector",
+        "process": {
+          "blade coating": {
+            "coating material": "material_2",
+            "substrate": "Cu foil from Iljin",
+            "gap": 150,
+            "substrate speed": 0.1
+          },
+          "drying": {
+            "temperature": 800,
+            "atmosphere": "ambient",
+            "time": 1
+          }
+        },
+        "property": {
+          "appearance": "sample-221124_32.jpg"
+        }
+      },
+      "material_4": {
+        "name": "EC-DEC electrolyte",
+        "process": {
+          "mixing": {
+            "type": "magnetic stirrer",
+            "material mix": {
+              "Lithium Hexafluorophopate": 5,
+              "EC": 45,
+              "DEC": 50
+            }
+          }
+        },
+        "property": {
+          "dielectric constant": {
+            "value": 3.2,
+            "uncertainty": 0.2,
+            "measurement": ""
+          }
+        }
+      }
+    },
+    "system": {
+      "description": "Co2O3 anode half cell as an example",
+      "configuration": {
+        "anode": {
+          "material": "Material_3",
+          "thickness": 150
+        },
+        "electrolyte": {
+          "material": "Material_4",
+          "thickness": 30
+        },
+        "celltype": "coin half cell"
+      },
+      "materials function list": {
+        "anode": {
+          "active materials_1": "material_1",
+          "binder_1": "PVDF",
+          "conducting material_1": "carbon black"
+        }
+      },
+      "process": {
+
+      },
+      "performance": {
+        "specific capacity_1": {
+
+        },
+        "specific capacity_2": {
+
+        },
+        "specific energy density": {
+          "volumetic energy density": {
+            "value": 275,
+            "uncertainty": 5
+          }
+        }
+      }
+    }
+  },
+  {
+    "meta": {
+      "data name": "example 1 (piezoelectric materials)",
+      "contributor": {
+        "name": "Kwang-Ryeol Lee",
+        "affiliation": "KIST",
+        "email address": "krlee@kist.re.kr"
+      },
+      "data generation date": "2022-11-23",
+      "keywords": "piezo, experimental, example, fake data",
+      "embargo": "2022-12-31"
+    },
+    "materials": {
+      "material_1": {
+        "name": "BaTiO3 as an example material with artificial data",
+        "chemical information": {
+          "composition": {
+            "Ba": 20,
+            "Ti": 20,
+            "O": 60,
+            "unit": "at.%"
+          }
+        },
+        "property": {
+          "piezoelectric property": {
+            "piezoelectric charge coefficient": {
+              "value": {
+                "d_{33}": 85.6,
+                "d_{31}": -34.5,
+                "d_{15}": 392
+              },
+              "uncertainty": 0.15,
+              "measurment": {
+                "d33 meter": {
+                  "instrument": "PM100",
+                  "sample type": "Bulk",
+                  "analysis elements": "PZT",
+                  "raw data": "\"file link\""
+                }
+              }
+            }
+          }
+        }
+      },
+      "material_2": {
+        "name": "electode materials Al",
+        "chemical information": {
+          "composition": {
+            "Al": 100,
+            "unit": "at.%"
+          },
+          "property": {
+            "electical property": {
+              "resistivity": {
+                "value": 8e-9,
+                "uncertainty": 1e-9
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "description": "artificial system for data example",
+      "configuration": {
+        "bottom electrode": {
+          "material": "material_2",
+          "thickness": 5e-3
+        },
+        "piezoelectric layer": {
+          "material": "material_1",
+          "thickness": 100e-3
+        },
+        "top electrode": {
+          "material": "material_2",
+          "thickness": 5e-3
+        }
+      },
+      "process": {
+        "sputter deposition": {
+          "substrate": "material_1",
+          "target_1": "Al",
+          "sputter power": {
+            "power source type": "RF",
+            "value": 150
+          },
+          "time": 1800,
+          "sputtering gas": "Ar",
+          "working pressure": 0.010
+        }
+      },
+      "performance": {
+        "maximum output voltage": {
+          "value": 139.5,
+          "uncertainty": 1.0,
+          "applied load": {
+            "type": "Vibration in Hz",
+            "value": 5
+          },
+          "load resistance": 1e8
+        },
+        "maximum output current": {
+          "value": 1e-9,
+          "uncertainty": 0,
+          "applied load": {
+            "type": "Vibration in Hz",
+            "value": 5
+          },
+          "load resistance": 1e8
+        },
+        "maximum output power": {
+          "value": 228e-7,
+          "uncertainty": 1e-7,
+          "applied load": {
+            "type": "Vibration in Hz",
+            "value": 5
+          },
+          "load resistance": 1e8
+        },
+        "measurement": {
+          "impedance analyzer": {
+            "instrument": "DPTS-AT-600",
+            "aquisition condition": {
+              "voltage": 10,
+              "temperature": 500,
+              "frequency range": {
+                "min": 100,
+                "max": 1e6
+              }
+            },
+            "raw data": "IV-1.csv"
+          },
+          "sample description": "photo.jpg"
+        }
+      }
+    }
+  }
+]
