@@ -1,0 +1,1441 @@
+[
+  {
+    "meta": {
+      "data name": "Aging properties of 7075 Al alloy sheet",
+      "contributor": {
+        "name": "Lee, Yun-soo; Kim, Su-hyeon",
+        "affiliation": "Korea Institute of Materials Science",
+        "email address": "yslee@kims.re.kr; shawnkim@kims.re.kr"
+      },
+      "data generation date": "2022-11-30",
+      "keywords": "7075 Al alloy; aging treatment; tensile properties; electrical conductivity",
+      "embargo": "2024-11-29",
+      "classification code": "EB0101"
+    },
+    "materials": {
+      "material_1": {
+        "name": "7075 aluminum alloy sheet",
+        "chemical information": {
+          "composition": "{Al:89.61, Cr:0.19, Cu:1.6, Fe:0.17, Mg:2.6, Mn:0.03, Si:0.07, Ti:0.03, Zn:5.7, unit:wt.%}",
+          "crystallography": {
+            "Bravais lattice": "face centered cubic",
+            "strukturbericht designation": "A1",
+            "space group": "Fm3m",
+            "crystal system": "cubic",
+            "Pearson symbol": "cF4"
+          }
+        },
+        "process": {
+          "thermomechanical process": {
+            "atmosphere": "ambient",
+            "holding temperature_(1)": 743.15,
+            "holding time_(1)": 3600.0,
+            "cooling method_(1)": "air cooling (AC)",
+            "final temperature_(1)": 298.15,
+            "holding temperature_(2)": 393.15,
+            "holding time_(2)": 86400.0,
+            "cooling method_(2)": "air cooling (AC)",
+            "final temperature_(2)": 298.15
+          },
+          "heat treatment": {
+            "heat treatment method": "aging",
+            "atmosphere": "ambient",
+            "heat treatment temperature": 473.15
+          }
+        },
+        "property": {
+          "electrical property": {
+            "electrical conductivity": {
+              "x_definition": [
+                "aging time",
+                "h"
+              ],
+              "value_array": [
+                {
+                  "x": 0.0,
+                  "value": 33.7
+                },
+                {
+                  "x": 24.0,
+                  "value": 43.0
+                },
+                {
+                  "x": 48.0,
+                  "value": 43.9
+                },
+                {
+                  "x": 72.0,
+                  "value": 44.6
+                },
+                {
+                  "x": 96.0,
+                  "value": 44.8
+                },
+                {
+                  "x": 120.0,
+                  "value": 45.1
+                },
+                "*** suggested unit %IACU "
+              ],
+              "measurement": {
+                "*** electrical conductivity test": {
+                  "instrument": "Fischer Sigmascope SMP 10",
+                  "specimen shape": "rectangular",
+                  "specimen width": {
+                    "data_unit": "mm",
+                    "data_value": 10.0
+                  },
+                  "specimen length": {
+                    "data_unit": "mm",
+                    "data_value": 10.0
+                  },
+                  "specimen thickness": {
+                    "data_unit": "mm",
+                    "data_value": 1.0
+                  },
+                  "temperature": {
+                    "data_unit": "K",
+                    "data_value": 298.15
+                  },
+                  "frequency": {
+                    "data_unit": "Hz",
+                    "data_value": 60000.0
+                  },
+                  "environment": "ambient"
+                }
+              }
+            }
+          },
+          "mechanical property": {
+            "hardness": {
+              "x_definition": [
+                "aging time",
+                "h"
+              ],
+              "value_array": [
+                {
+                  "x": 0.0,
+                  "value": 493.7
+                },
+                {
+                  "x": 24.0,
+                  "value": 338.3
+                },
+                {
+                  "x": 48.0,
+                  "value": 293.0
+                },
+                {
+                  "x": 72.0,
+                  "value": 271.0
+                },
+                {
+                  "x": 96.0,
+                  "value": 255.3
+                },
+                {
+                  "x": 120.0,
+                  "value": 240.3
+                },
+                "\"*** 4가지 경도측정법을 어떻게 구분할지 value unit\": \"HV\","
+              ],
+              "measurement": {
+                "hardness test": {
+                  "instrument": "Mitutoyo HM-122",
+                  "type": "Vickers",
+                  "temperature": {
+                    "data_unit": "K",
+                    "data_value": 273.15
+                  },
+                  "test force": {
+                    "data_unit": "gf",
+                    "data_value": 300.0
+                  },
+                  "dwell time": {
+                    "data_unit": "s",
+                    "data_value": 10.0
+                  }
+                }
+              }
+            },
+            "tensile property": {
+              "yield strength": {
+                "x_definition": [
+                  "aging time",
+                  "h"
+                ],
+                "value_array": [
+                  {
+                    "x": 0.0,
+                    "value": 493.7
+                  },
+                  {
+                    "x": 24.0,
+                    "value": 338.3
+                  },
+                  {
+                    "x": 48.0,
+                    "value": 293.0
+                  },
+                  {
+                    "x": 72.0,
+                    "value": 271.0
+                  },
+                  {
+                    "x": 96.0,
+                    "value": 255.3
+                  },
+                  {
+                    "x": 120.0,
+                    "value": 240.3
+                  }
+                ]
+              },
+              "tensile strength": {
+                "x_definition": [
+                  "aging time",
+                  "h"
+                ],
+                "value_array": [
+                  {
+                    "x": 0.0,
+                    "value": 567.3
+                  },
+                  {
+                    "x": 24.0,
+                    "value": 439.0
+                  },
+                  {
+                    "x": 48.0,
+                    "value": 402.7
+                  },
+                  {
+                    "x": 72.0,
+                    "value": 384.3
+                  },
+                  {
+                    "x": 96.0,
+                    "value": 371.3
+                  },
+                  {
+                    "x": 120.0,
+                    "value": 358.3
+                  }
+                ]
+              },
+              "total elongation": {
+                "x_definition": [
+                  "aging time",
+                  "h"
+                ],
+                "value_array": [
+                  {
+                    "x": 0.0,
+                    "value": 17.7
+                  },
+                  {
+                    "x": 24.0,
+                    "value": 12.7
+                  },
+                  {
+                    "x": 48.0,
+                    "value": 13.0
+                  },
+                  {
+                    "x": 72.0,
+                    "value": 13.0
+                  },
+                  {
+                    "x": 96.0,
+                    "value": 12.0
+                  },
+                  {
+                    "x": 120.0,
+                    "value": 13.0
+                  }
+                ]
+              },
+              "strain hardening exponent": {
+                "x_definition": [
+                  "aging time",
+                  "h"
+                ],
+                "value_array": [
+                  {
+                    "x": 0.0,
+                    "value": 0.106
+                  },
+                  {
+                    "x": 24.0,
+                    "value": 0.158
+                  },
+                  {
+                    "x": 48.0,
+                    "value": 0.176
+                  },
+                  {
+                    "x": 72.0,
+                    "value": 0.184
+                  },
+                  {
+                    "x": 96.0,
+                    "value": 0.19
+                  },
+                  {
+                    "x": 120.0,
+                    "value": 0.195
+                  }
+                ]
+              },
+              "measurement": {
+                "tensile test": {
+                  "instrument": "INSTRON 5982",
+                  "specimen shape": "rectangular",
+                  "specimen direction": 0.0,
+                  "gauge length": 25.0,
+                  "specimen width": 6.0,
+                  "specimen thickness": 1.0,
+                  "temperature": 298.15,
+                  "tensile test speed": {
+                    "type": "crosshead separation rate",
+                    "crosshead separation rate": 1.5
+                  },
+                  "environment": "ambient"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "meta": {
+      "data name": "Pt3Ni particle on graphite support data 1",
+      "contributor": {
+        "name": "Jung Hoon Lee",
+        "affiliation": "Computational Science Center, KIST",
+        "email address": "jhlee@kist.re.kr"
+      },
+      "data generation date": "2020-04-28",
+      "keywords": "catalyst, experimental, example data",
+      "related information": "information of material_2 comes from Aldrich catalog\n10.1021/nl401881z",
+      "embargo": "2022-12-31"
+    },
+    "materials": {
+      "material_1": {
+        "name": "Pt2.5Ni",
+        "chemical information": {
+          "composition": {
+            "Pt": 71.43,
+            "Ni": 28.57,
+            "unit": "at.%"
+          },
+          "crystallography": {
+            "Bravis lattice": "cubic",
+            "lattice parameter": {
+              "a": 3.897
+            },
+            "measurement": [
+              {
+                "X-ray diffraction": {
+                  "instrument": "PANalytical X’Pert PRO Alpha-1 diffractometer",
+                  "image": "image_xrd.png"
+                }
+              },
+              {
+                "TEM": {
+                  "instrument": "JEOL ARM200F microscope",
+                  "image": "image_tem.png"
+                }
+              }
+            ]
+          }
+        },
+        "process": {
+          "solvothermal": {
+            "precursor_1": {
+              "name": "platinum(II) acetylacetonate",
+              "amount": 20
+            },
+            "precursor_2": {
+              "name": "nickel(II) acetylacetonate",
+              "amount": 13.1
+            },
+            "solvent_1": {
+              "name": "benzyl ether",
+              "amount": 7
+            },
+            "reducing agent_1": {
+              "name": "W(CO)6",
+              "amount": "50"
+            },
+            "surfactant_1": {
+              "name": "oleylamine",
+              "amount": 0.002
+            },
+            "surfactant_2": {
+              "name": "oleic acid",
+              "amount": 0.001
+            },
+            "temperature": 403,
+            "time": 3
+          },
+          "heat treatment": {
+            "initial temperature": 403,
+            "heating rate_1": 10,
+            "holding temperature_1": 503,
+            "holding time_1": 0.67,
+            "cooling rate_1": 30,
+            "heating rate_2 ": 10,
+            "holding temperature_2": 300,
+            "holding time_2": 0.5,
+            "cooling rate_2": "",
+            "final temperature": 298
+          },
+          "centrifugation": {
+            "revolutions per minute": 6000,
+            "time": 0.1667,
+            "temperature": 298,
+            "additive_1": {
+              "name": "toluene",
+              "amount": 0.005
+            },
+            "additive_2": {
+              "name": "ethanol",
+              "amount": 0.015
+            }
+          }
+        },
+        "property": {
+          "structural property": {
+            "morphology": {
+              "particle": {
+                "shape": "octahedron",
+                "size": {
+                  "diameter": {
+                    "value": 9,
+                    "uncertainty": 0.03
+                  }
+                },
+                "measurement": {
+                  "TEM": {
+                    "instrument": "JEOL ARM200F microscope",
+                    "image": "image_hrtem.png"
+                  }
+                }
+              }
+            },
+            "1D defect": {
+              "type": "edge dislocation",
+              "Burgers vector": "1/3[110]",
+              "density": {
+                "value": 100000000,
+                "uncertainty": 1000
+              },
+              "velocity": {
+                "value": 9.2,
+                "uncertainty": 0.05
+              },
+              "measurement": {
+                "TEM": {
+                  "instrument": "JEOL ARM200F microscope",
+                  "image": "image_hrtem.png"
+                }
+              }
+            },
+            "impurity": {
+              "O": 0.34,
+              "unit": "ppm",
+              "uncertainty": 0.001
+            }
+          }
+        }
+      },
+      "material_2": {
+        "name": "C",
+        "chemical information": {
+          "composition": {
+            "C": 100,
+            "unit": "at.%"
+          }
+        }
+      }
+    },
+    "system": {
+      "description": "Pt3Ni/C catalyst system for CO2 reduction",
+      "configuration": {
+        "active material": "Material_1",
+        "amount of active material": 0.003,
+        "support material": "Material_2"
+      },
+      "process": {
+        "sonication": {
+          "material mix": {
+            "Material_1": 0.02,
+            "Material_2": 0.03
+          },
+          "solvent": "toluene",
+          "temperature": 298,
+          "time": 3
+        },
+        "centrifugation": {
+          "revolutions per minute": "12000",
+          "time": 10,
+          "temperature": 333,
+          "additive_1": {
+            "name": "acetic acid",
+            "amount": 0.02
+          }
+        },
+        "rinsing": {
+          "temperature": 343,
+          "time": 0.5,
+          "additive_1": {
+            "name": "ethanol"
+          }
+        },
+        "heat treatment": {
+          "initial temperature": 298,
+          "holding temperature_1": 333,
+          "holding time_1": 2,
+          "final temperature": 298
+        }
+      },
+      "performance": {
+        "electrochemical": {
+          "ORR": {
+            "area-specific activity": {
+              "value": 49,
+              "uncertianty": 0.1
+            },
+            "mass-specific activity": {
+              "value": 0.4,
+              "uncertinty": 0.001
+            },
+            "Faradaic efficiency": {
+              "value": 90,
+              "uncertainty": 0.5
+            },
+            "measurement": {
+              "electrochemical activity": {
+                "instrument": "CHI 730C potentiostat",
+                "temperature": 298,
+                "voltage": 0.9,
+                "graph image": "image_electro_chem.png",
+                "analysis method": "potentiostat"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "meta": {
+      "data name": "example data of porous materials system",
+      "contributor": {
+        "name": "Jung Hoon Lee",
+        "affiliation": "Computational Science Center, KIST",
+        "email address": "jhlee@kist.re.kr"
+      },
+      "data generation date": "2020-12-05",
+      "keywords": "example data",
+      "related information": "artificial data to check the validity of the dictionary",
+      "embargo": "2024-12-31"
+    },
+    "materials": {
+      "material_1": {
+        "name": "Mn2(dobpdc)",
+        "chemical information": {
+          "composition": {
+            "Mn2(dobpdc)": 100
+          },
+          "crystallography": {
+            "Bravis lattice": "Hexagonal",
+            "lattice parameter": {
+              "a": 21.7291,
+              "b": 21.7291,
+              "c": 7.1279,
+              "alpha": 90,
+              "beta": 90,
+              "gamma": 120
+            },
+            "measurement": {
+              "X-ray diffraction": {
+                "instrument": "Beamline 11-BM at the Advanced Photon Source (APS), Argonne National Laboratory, 0.4137 Ang",
+                "temperature": "100 K",
+                "graph image": "image_xrd.png"
+              }
+            }
+          }
+        },
+        "process": {
+          "solvothermal": {
+            "precursor_1": {
+              "name": "H4dobpdc",
+              "amount": "27.4 mg"
+            },
+            "precursor_2": {
+              "name": "MnCl2.4H2O",
+              "amount": "49.5 mg"
+            },
+            "solvent_1": {
+              "name": "ethanol",
+              "amount": "5 mL"
+            },
+            "solvent_2": {
+              "name": "DMF",
+              "amount": "5 mL"
+            },
+            "temperature": 393,
+            "time": 12
+          },
+          "heat treatment": {
+            "atmosphere": "dynamic vacuum",
+            "starting temperature": 393,
+            "constant temperature": 523,
+            "treatment time": 24,
+            "end temperature": 298
+          }
+        },
+        "property": {
+          "structural property": {
+            "surface area": {
+              "BET surface area": {
+                "value": 3019
+              }
+            },
+            "porosity": {
+              "value": 1.23
+            },
+            "measurement": {
+              "N2 gas adsorption": {
+                "instrument": "Micromeritics ASAP2020 gas adsorption analyser",
+                "temperature": 77,
+                "graph image": "image_pore_vol.png",
+                "analysis method": "N2 isotherm "
+              }
+            }
+          }
+        }
+      },
+      "material_2": {
+        "name": "N,N'-dimethylethylenediamine (mmen)",
+        "composition": {
+          "mmen": "100 %"
+        }
+      }
+    },
+    "system": {
+      "description": "mmen-Mn2(dobpdc) for gas adsorption",
+      "configuration": {
+        "framework_1": "Material_1",
+        "grafted molecule": "Material_2",
+        "grafted molecule amount": {
+          "value": 0.002,
+          "uncertainty": 0.0001
+        }
+      },
+      "process": {
+        "mixing": {
+          "component 1": {
+            "name": "material 1",
+            "amount": "100 mg"
+          },
+          "component 2": {
+            "name": "material 2",
+            "amount": "1 mL"
+          },
+          "solvent": {
+            "name": "hexane",
+            "amount": "9 mL"
+          },
+          "temperature": 298,
+          "time": 4
+        },
+        "rinsing": {
+          "atmosphere": "dynamic vacuum",
+          "additives": {
+            "name": "dry hexane",
+            "amount": "10 mL"
+          },
+          "temperature": 373,
+          "time": 4
+        }
+      },
+      "performance": {
+        "absobate_1": {
+          "gas type": "CO2",
+          "adsorption capacity": {
+            "data_1": {
+              "value": 3.4,
+              "temperature": 298,
+              "pressure": 700
+            },
+            "data_2": {
+              "value": 3.2,
+              "temperature": 298,
+              "pressure": 600
+            },
+            "data_3": {
+              "value": 3.1,
+              "temperature": 298,
+              "pressure": 500
+            },
+            "data_4": {
+              "value": 3.0,
+              "temperature": 298,
+              "pressure": 400
+            },
+            "data_5": {
+              "value": 2.9,
+              "temperature": 298,
+              "pressure": 300
+            },
+            "data_6": {
+              "value": 2.8,
+              "temperature": 298,
+              "pressure": 200
+            },
+            "data_7": {
+              "value": 2.7,
+              "temperature": 298,
+              "pressure": 100
+            }
+          },
+          "adsorption enthalpy": {
+            "data_1": {
+              "value": -71,
+              "temperature": 298,
+              "adsorbed amount": 1
+            },
+            "data_2": {
+              "value": -69,
+              "temperature": 298,
+              "adsorbed amount": 2
+            },
+            "data_3": {
+              "value": -35,
+              "temperature": 298,
+              "adsorbed amount": 3
+            }
+          }
+        },
+        "measurement": {
+          "gas adsorption isotherm": {
+            "adsorbed gas": "CO2",
+            "instrument": "Micromeritics ASAP2020 gas adsorption analyser",
+            "graph image_1": "image_co2_iso.png",
+            "graph_image_2": "image_co2_enthalpy.png"
+          }
+        }
+      }
+    }
+  },
+  {
+    "meta": {},
+    "materials": {},
+    "system": {}
+  },
+  {
+    "meta": {
+      "data name": "Photodetector Data Example (Extracted data from 10.1038/s41598-017-13016-9)",
+      "contributor": {
+        "name": "Sean Lee",
+        "affiliation": "KRISS"
+      },
+      "data generation data": "2021-11-15",
+      "keywords": "photodetector, example data",
+      "embargo": "2022-12-31"
+    },
+    "materials": {
+      "material_0": {
+        "name": "GaSb",
+        "chemical information": {
+          "composition": {
+            "Ga": 50,
+            "Sb": 50,
+            "unit": "wt.%"
+          }
+        }
+      },
+      "material_2": {
+        "name": "GaSb",
+        "chemical information": {
+          "composition": {
+            "Ga": 50,
+            "Sb": 50,
+            "unit": "wt.%"
+          }
+        }
+      },
+      "material_3": {
+        "name": "InAs_{0.91}Sb_{0.09}",
+        "chemical information": {
+          "composition": {
+            "In": 50,
+            "As": 45.5,
+            "Sb": 4.5,
+            "unit": "wt.%"
+          }
+        }
+      },
+      "material_4": {
+        "name": "InAs",
+        "chemical information": {
+          "composition": {
+            "In": 50,
+            "As": 50,
+            "unit": "wt.%"
+          }
+        }
+      },
+      "material_5": {
+        "name": "InAs_{0.50}Sb_{0.50}",
+        "chemical information": {
+          "composition": {
+            "In": 50,
+            "As": 25,
+            "Sb": 25,
+            "unit": "wt.%"
+          }
+        }
+      },
+      "material_6": {
+        "name": "InAs_{0.09}Sb_{0.91}",
+        "chemical information": {
+          "composition": {
+            "In": 50,
+            "As": 4.5,
+            "Sb": 45.5,
+            "unit": "wt.%"
+          }
+        }
+      },
+      "material_7": {
+        "name": "GaSb",
+        "chemical information": {
+          "composition": {
+            "In": 50,
+            "Sb": 50,
+            "unit": "wt.%"
+          }
+        }
+      },
+      "material_8": {
+        "name": "GaSb",
+        "chemical information": {
+          "composition": {
+            "In": 50,
+            "Sb": 50,
+            "unit": "wt.%"
+          }
+        }
+      },
+      "material_9": {
+        "name": "SiO_{2}",
+        "chemical information": {
+          "composition": {
+            "Si": 33.3,
+            "O": 66.6,
+            "unit": "at.%"
+          }
+        }
+      }
+    },
+    "system": {
+      "description": "Photodetector without microjunction",
+      "configuration": {
+        "device type": 0,
+        "device size": {
+          "pixel size": {
+            "value": "(25, 25)"
+          }
+        },
+        "substrate": {
+          "material": "Material[0]"
+        },
+        "buffer": {
+          "material": "Material[1]"
+        },
+        "etch stop layer": {
+          "material": "Material[2]",
+          "thickness": {
+            "value": 5e-7
+          }
+        },
+        "bottom contact layer": {
+          "thickness": {
+            "value": 5e-7
+          }
+        },
+        "absorber": {
+          "material_0": {
+            "material": "Material[3]",
+            "monolayers": 30
+          },
+          "material_1": {
+            "material": "Material[4]",
+            "monolayers": 10
+          },
+          "thickness": {
+            "value": 0.000002
+          },
+          "detection type": "LWIR"
+        },
+        "barrier": {
+          "barrier_0": {},
+          "barrier_1": {
+            "material_0": {
+              "material": "Material[5]"
+            },
+            "material_1": {
+              "material": "Material[6]"
+            },
+            "thickness": {
+              "value": 3e-7
+            }
+          }
+        },
+        "top contact layer": {
+          "material": "Material[7]",
+          "thickness": {
+            "value": 3e-7
+          }
+        },
+        "passivation layer": {
+          "material": "Material[8]",
+          "thickness": {
+            "value": 0.0000015
+          }
+        },
+        "assembly": "{Substrate, Buffer, EtchStopLayer, BottomContactLayer, Absorber, Barrier[0], Barrier[1], TopContactLayer}"
+      },
+      "performance": {
+        "quantum effeciency": {
+          "value": 32,
+          "wavelength": 0.0000073,
+          "operation temperature": 77
+        },
+        "dark current density": {
+          "value": 0.000015,
+          "operation temperature": 77,
+          "reverse bias voltage": 140
+        },
+        "cutoff wavelength": {
+          "value": 0.000008,
+          "operation temperature": 77
+        }
+      }
+    }
+  },
+  {
+    "meta": {
+      "data name": "Gas Sensor Data Example (Extracted data from ACS Sens. 2019, 4, 678-686)",
+      "contributor": {
+        "name": "Goeun Lee",
+        "affiliation": "Smart Devices Team, KRISS",
+        "email address": "ge7@kriss.re.kr"
+      },
+      "data generation date": "2021-11-22",
+      "keywords": "gas sensor, example data",
+      "embargo": "2022-12-31"
+    },
+    "materials": {
+      "material_0": {
+        "name": "SnS_{2}",
+        "chemical information": {
+          "composition": {
+            "Sn": 33.3,
+            "S": 66.6,
+            "unit": "at.%"
+          },
+          "crystallography": {
+            "space group": "P(3)m1"
+          }
+        },
+        "process": {
+          "chemical vapor deposition": {
+            "one-zone system": {
+              "working pressure": 1,
+              "carrier gas_0": {
+                "name": "H_{2}",
+                "flow rate": 100
+              },
+              "carrier gas_1": {
+                "name": "N_{2}",
+                "flow rate": 500
+              },
+              "step_0": {
+                "precursor_0": {
+                  "name": "S",
+                  "temperature": 300
+                },
+                "precursor_1": {
+                  "name": "ethylene glycol",
+                  "concentration": 1000,
+                  "temperature": {
+                    "value": 500,
+                    "cooling rate": 20
+                  }
+                },
+                "substrate": {
+                  "name": "SiO_{2}/Si"
+                },
+                "time": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "system": {
+      "description": "SiO_{2} Nanorods (125 nm)",
+      "configuration": {
+        "eng_definition": "configurational information of the gas sensor",
+        "var_name ": "Configuration",
+        "electrode": {
+          "structure type": 2,
+          "gap": 5,
+          "material_0": {
+            "name": "Pt",
+            "thickness": 100
+          },
+          "material_1": {
+            "name": "Ti",
+            "thickness": 30
+          }
+        },
+        "channel": {
+          "material": "Material[0]"
+        },
+        "interlayer_(n)": {
+          "material": "SiO_{2}",
+          "type": "nanorods",
+          "thickness": 125
+        }
+      },
+      "performance": {
+        "eng_definition": "performance data of the gas sensor",
+        "var_name": "Performance",
+        "gas response": {
+          "balance gas": {
+            "gas type": "dry air",
+            "flow rate": 1000
+          },
+          "temperature": 25,
+          "bias voltage": 1,
+          "target gas_0": {
+            "gas type": "NO_{2}",
+            "gas concentration": 10,
+            "responsivity": {
+              "calculation method": 1,
+              "value": 207
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "meta": {
+      "data name": "example 6 : cathoylte materials study with All-Solid-State Battery (ASSB) full-cell cycling data",
+      "contributor": {
+        "name": "Dong-HWa Seo",
+        "affiliation": "UNIST",
+        "email address": "dseo@unist.ac.kr"
+      },
+      "data generation date": "2022-12-08",
+      "keywords": "Alkali ion battery; cathode"
+    },
+    "materials": {
+      "material_1": {
+        "name": "Li3InCl6",
+        "process": {
+          "ball milling": {
+            "type": "plenatray",
+            "ratation speed": 500,
+            "total time": 60,
+            "milling time": 45,
+            "rest time": 15,
+            "ball to material weight ratio": 40,
+            "material": "LiCl, InCl3 from sigma aldrich",
+            "material mass": 1,
+            "ball material": "ZrO2",
+            "jar volume": 45,
+            "atmosphere": "Ar"
+          },
+          "heat treatment": {
+            "atmosphere": "vac",
+            "heat treatment method": "annealing",
+            "temperature": 260,
+            "heating rate": 5,
+            "cooling rate": 5,
+            "time": 4
+          }
+        },
+        "property": {
+          "structural property": {
+            "morphology": {
+              "particle": {
+                "shape": "sphere",
+                "size": {
+                  "diameter": 0.1
+                },
+                "measurement": {
+                  "TEM": {
+                    "instrument": "TITAN @ KIST",
+                    "mode": "TEM-BF",
+                    "aquisition condition": {
+                      "magnification": 50000,
+                      "exposure time": 100
+                    },
+                    "raw data": {
+                      "image": "TEM-190422_4.dm4"
+                    }
+                  }
+                }
+              }
+            },
+            "phase": {
+              "name": "solid",
+              "phase crystal structure": "ccp monoclinic",
+              "composition": "{Li:3,In:1,Cl:6}"
+            }
+          },
+          "electrochemical property": {
+            "electrochemcial phase stability": {
+              "oxidation potential": 4.3,
+              "reduction potential": 1.6,
+              "measurement": {
+                "voltammetry": {
+                  "aquisition condition": {
+                    "scan rate": 0.1,
+                    "upper voltage": 4.5,
+                    "lower voltage": 1.0,
+                    "temperature": 25,
+                    "electrode configuration": "Li-In/LPSC/LIC/LIC-C"
+                  },
+                  "raw data": {
+                    "image": "TEM-190422_4.dm4"
+                  }
+                }
+              }
+            }
+          },
+          "electrical property": {
+            "ionic conductivity": {
+              "ionic conductivity": 1.5,
+              "measurement": {
+                "EIS": {
+                  "aquisition condition": {
+                    "scan rate": 0.1,
+                    "upper set frequency": 7000000,
+                    "lower set frequency": 0.01,
+                    "temperature": 25,
+                    "resistance": 40,
+                    "thickenss": 0.1,
+                    "diameter": 13
+                  },
+                  "raw data": {
+                    "image": "EIS.mpr"
+                  }
+                }
+              }
+            },
+            "electronic conductivity ": {
+              "ionic conductivity": 1E-09,
+              "measurement": {
+                "voltametry": {
+                  "aquisition condition": {
+                    "scan rate": 0.1,
+                    "upper voltage": 0.1,
+                    "lower voltage": 0.1,
+                    "temperature": 25,
+                    "electrode configuration": "SUS/LIC/SUS"
+                  },
+                  "raw data": {
+                    "image": "CA(DC_polarization).mpr"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "material_2": {
+        "name": "NCM622 from BASF Corp."
+      },
+      "material_3": {
+        "name": "LPSC Argyrodite form Inchem. Corp."
+      },
+      "material_4": {
+        "name": "Li-In form Wellcos Corp. "
+      },
+      "material_5": {
+        "name": "Cathode composite with NCM622&Li3InCl6&VGCF",
+        "process": {
+          "mixing": {
+            "type": "agate mortar mixing ",
+            "material mix": "{Material_1:30wt%, Material_2:70wt%, VGCF:3wt%}",
+            "temperature": 25,
+            "atmosphere": "Ar",
+            "time": 10
+          }
+        }
+      }
+    },
+    "system": {
+      "description": "NCM622-Li/In All-Solid-State Batteries with Li3InCl6 catholyte and LPSC separator solid electrolyte ",
+      "configuration": {
+        "cathode": {
+          "material": "Material_5",
+          "mass": 30
+        },
+        "anode": {
+          "material": "Material_4",
+          "thickness": 300
+        },
+        "electrolyte": {
+          "material": "Material_3",
+          "mass": 150
+        },
+        "celltype": "mold cell"
+      },
+      "materials function list": {
+        "cathode": {
+          "active materials_1": "material_2",
+          "catholyte": "material_1",
+          "conducting material_1": "VGCF"
+        }
+      },
+      "process": {
+        "pressing": {
+          "type": "uniaxial pressing",
+          "temeprature": 25,
+          "pressure": 300,
+          "time": 2
+        }
+      },
+      "performance": {
+        "specific capacity_1": {
+          "discharge capacity": {
+            "discharge capacity (mass)": "[[1,180],[2,179],[3,179],[4,175], ...]"
+          },
+          "charge capacity": {
+            "discharge capacity (mass)": "[[1,180],[2,179],[3,179],[4,175], ...]"
+          },
+          "measurment": {
+            "amperometry": {
+              "upper set voltage": 3.6,
+              "lower set voltage": 2.4,
+              "specific current density (mass)": 2.4,
+              "temperature": 30,
+              "raw data": "cycling_data.csv"
+            }
+          }
+        },
+        "rate performance_1": {
+          "discharge capacity": {
+            "discharge capacity (mass)": "[[1,180],[2,179],[3,179],[4,175], ...]"
+          },
+          "charge capacity": {
+            "discharge capacity (mass)": "[[1,180],[2,179],[3,179],[4,175], ...]"
+          },
+          "capacity retention": {
+            "capacity retention": "[[1,100],[2,99.9],[3,99.9],[4,99.5], ...]"
+          },
+          "coulombic efficiency": {
+            "capacity retention": "[[1,100],[2,99.9],[3,99.9],[4,99.5], ...]"
+          },
+          "measurment": {
+            "amperometry": {
+              "upper set voltage": 3.6,
+              "lower set voltage": 2.4,
+              "specific current density (mass)": 2.4,
+              "temperature": 30,
+              "raw data": "cycling_data.csv"
+            }
+          }
+        },
+        "specific energy density": {
+          "gravimetric energy density": {
+            "value": 275,
+            "uncertainty": 5
+          }
+        }
+      }
+    }
+  },
+  {
+    "meta": {
+      "data name": "example data of piezoelectric materials system",
+      "contributor": {
+        "name": "Jae Won Cho",
+        "affiliation": "Sungkyunkwan University",
+        "email address": "1028wodnjs@naver.com"
+      },
+      "data generation data": "2022-12-12",
+      "keywords": "piezo, experimental, example, fake data",
+      "embargo": "2022-12-31"
+    },
+    "materials": {
+      "material_0": {
+        "name": "mixed PVDF / PVDF precursor",
+        "chemical information": {
+          "composition": {
+            "PVDF": 100,
+            "unit": "wt.%"
+          }
+        },
+        "process": {
+          "mixing": {
+            "type": "magnetic stirrer",
+            "material mix": {
+              "PVDF": 24
+            },
+            "solvent_1": {
+              "name": "dimethylacetamide",
+              "amount": 24
+            },
+            "solvent_2": {
+              "name": "acetone",
+              "amount": 52
+            },
+            "rotation speed": 700,
+            "temperature": 323.15,
+            "time": 4
+          }
+        }
+      },
+      "material_1": {
+        "name": "PVDF",
+        "chemical information": {
+          "composition": {
+            "PVDF": 100,
+            "unit": "wt.%"
+          }
+        },
+        "process": {
+          "electrospinning": {
+            "type": [
+              "Uniaxial Electrospinning"
+            ],
+            "precursor_1": {
+              "solute": {
+                "name": "Material[0]",
+                "amount": 24
+              },
+              "solvent_1": {
+                "name": "dimethylacetamide",
+                "amount": 24
+              },
+              "solvent_2": {
+                "name": "acetone",
+                "amount": 52
+              },
+              "concentration": "24"
+            },
+            "tip size": {
+              "inner diameter": 0.8
+            },
+            "collector": "Plate collector",
+            "tip to collector distance": 18,
+            "applied voltage": 15,
+            "injection rate": 100,
+            "relative humidity": 60,
+            "temperature": 25
+          }
+        },
+        "property": {
+          "piezoelectric property": {
+            "piezoelectric strain coefficient": {
+              "value": {
+                "d*{33}": 2.565
+              },
+              "uncertainty": 0.138,
+              "measurement": {
+                "PFM": {
+                  "instrument": "MultiMode 8 Bruker",
+                  "acquisition condition": {
+                    "mode": "contact",
+                    "cantilever type": "Pt/Cr-coated silicon tips"
+                  },
+                  "raw data": ""
+                }
+              }
+            }
+          },
+          "structural property": {
+            "morphology": {
+              "particle": {
+                "shape": "fiber",
+                "size": {
+                  "diameter": {
+                    "value": 830,
+                    "uncertainty": 530
+                  }
+                },
+                "measurement": {
+                  "analysis_1": {
+                    "SEM": {
+                      "instrument": "Merlin Gemini 2 Zeiss",
+                      "acquisition condition": {
+                        "acceration voltage": 3,
+                        "current(spot size)": 0.000150,
+                        "Working distance": 0.8
+                      },
+                      "raw data": ""
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "material_2": {
+        "name": "Al for electrode",
+        "chemical information": {
+          "Al": 100,
+          "unit": "at.%"
+        }
+      }
+    },
+    "system": {
+      "description": "generator to measure piezoelectric response",
+      "configuration": {
+        "substrate": {
+          "material": "glass"
+        },
+        "bottom electrode": {
+          "material": "material_2",
+          "structure type": "vertical"
+        },
+        "piezoelectric layer": {
+          "material": "material_1",
+          "length": 0.015,
+          "width": 0.010
+        },
+        "top electrode": {
+          "material": "material_2",
+          "structure type": "vertical"
+        },
+        "encapsulation": {
+          "material": "insulting tape"
+        }
+      },
+      "performance": {
+        "maxumum output power": {
+          "value": 0.00000058,
+          "applied mechanical load": {
+            "type": "Tapping in N(force)",
+            "value": 20,
+            "freqnency": 100000000
+          }
+        }
+      }
+    }
+  }
+]

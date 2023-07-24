@@ -1,5 +1,5 @@
 {
-  "dictionary ver. 2022-2": "전문위 안 (221201)",
+  "dictionary ver. 2022-2": "표준위 심의 안 (230210)",
   "": "",
   "metadata vocabulary": {
     "data name": {
@@ -45,7 +45,7 @@
       "data_example": "2021-05-24; 2008-03-01"
     },
     "keywords": {
-      "eng_definition": "material type or definition, keywords respresneting the data set",
+      "eng_definition": "material type or definition, keywords respresenting the data set",
       "var_name": "Keywords",
       "data_type": "string",
       "data_example": "experimental; computational; Li ion battery; carbon nanotube; composite; Al base"
@@ -77,7 +77,7 @@
       "data_example": "EB0101; EB0102; EB0103"
     },
     "related information": {
-      "eng_definition": "Otehr information on Data; related journals, projects, DOI of data source, etc",
+      "eng_definition": "Other information on Data; related journals, projects, DOI of data source, etc",
       "var_name": "RelatedInformation",
       "data_type": "string",
       "data_example": "extracted from Acta Mater vol 13, page 2089 (2000); archived on 01/01/2021; 10.1016/j.actamat.2016.08.081; generated in CNMD, POSTECH (2021); funded by KRF 20-12-12345F"
@@ -294,7 +294,7 @@
         "eng_definition": "information of the computation model in the case of compuation or simulation data",
         "var_name": "Model",
         "alias": "",
-        "element": {
+        "elements": {
           "eng_definition": "elements in the simulation model",
           "var_name": "Element",
           "alias": "components",
@@ -1640,7 +1640,7 @@
                 "data_unit": "same as value"
               }
             },
-            "maximum compressive strength": {
+            "ultimate compressive strength": {
               "eng_definition": "maximum compressive strength of material during compressive test",
               "var_name": "MaxCompressiveStrength",
               "alias": "",
@@ -1731,24 +1731,6 @@
                 "data_unit": "same as value"
               }
             },
-            "creep rate": {
-              "eng_definition": "time rate of deformation of a material subject to stress at a constant temperature, slope of the portion of the creep vs. time diagram",
-              "var_name": "CreepRate",
-              "alias": "",
-              "value": {
-                "eng_definition": "data value",
-                "var_name": "DataValue",
-                "data_type": "numeric",
-                "data_unit": "h^{-1}",
-                "data_example": 0.0001
-              },
-              "uncertainty": {
-                "eng_definition": "uncertainty of the value",
-                "var_name": "Uncertainty",
-                "data_type": "numeric",
-                "data_unit": "same as value"
-              }
-            },
             "rupture time": {
               "eng_definition": "time necessary produce failure while materials is subjected to constant load at a constant temperature",
               "var_name": "RuptureTime",
@@ -1775,7 +1757,7 @@
                 "eng_definition": "data value",
                 "var_name": "DataValue",
                 "data_type": "numeric",
-                "data_unit": "%",
+                "data_unit": "MPa",
                 "data_example": 500
               },
               "uncertainty": {
@@ -1840,30 +1822,6 @@
             "eng_definition": "mechanical property of a material to withstand the compression or the elongation with respect to its length",
             "var_name": "ElasticProperty",
             "alias": "",
-            "elastic constants": {
-              "eng_definition": "parameters expressing the relations between the stress and the strain within elastic regime",
-              "var_name": "ElasticConstants",
-              "alias": "",
-              "value": {
-                "data_type": "dictionary {constant_symbol:value,...}",
-                "data_unit": "GPa",
-                "data_example": "{E_11:100, E_12:58, ...}; {c_11:100, c_12:52, ...}"
-              },
-              "measurement": {
-                "eng_definition": "mesurement method",
-                "var_name": "Measurement",
-                "alias": "characterization tools, analysis method",
-                "(analysis_n)": {
-                  "eng_definition": "information of analysis method and condition",
-                  "data_type": "corresponding data module for the analysis method"
-                },
-                "sample description": {
-                  "eng_definition": "description of sample in any form of string, drawing or photo image, etc.",
-                  "var_name": "SampleDescription",
-                  "data_type": "file; string"
-                }
-              }
-            },
             "Young's modulus": {
               "eng_definition": "elastic properties of materials undergoing tension or compression in one direction",
               "var_name": "YoungsModulus",
@@ -2231,7 +2189,7 @@
             "var_name": "TensileProperty",
             "alias": "",
             "yield strength": {
-              "eng_definition": "The stress value at which the deformation of a material changes from elastic to plastic",
+              "eng_definition": "The stress value at which the plastic deformation of a material begins to occur",
               "var_name": "YieldStrength",
               "alias": "yield stress, YS, R$_{p0.2}$",
               "data_type": "numeric array",
@@ -2265,7 +2223,7 @@
                 ]
               }
             },
-            "tensile strength": {
+            "ultimate tensile strength": {
               "eng_definition": "maximum stress that can be applied to the material before it breaks",
               "var_name": "TensileStrength",
               "alias": "ultimate tensile stress, UTS, R$_m$",
@@ -2392,24 +2350,6 @@
             "eng_definition": "generic term for measures of resistance to extension of a crack",
             "var_name": "FractureToughness",
             "alias": "",
-            "stress concentration factor": {
-              "eng_definition": "ratio of the greatest stress in the region of a notch or other stress concentrator to the corresponding nominal stress",
-              "var_name": "theoretical elastic stress concentration factor",
-              "alias": "",
-              "value": {
-                "eng_definition": "data value",
-                "var_name": "DataValue",
-                "data_type": "numeric",
-                "data_unit": "dimensionless",
-                "data_example": 3.0
-              },
-              "uncertainty": {
-                "eng_definition": "uncertainty of the value",
-                "var_name": "Uncertainty",
-                "data_type": "numeric",
-                "data_unit": "same as value"
-              }
-            },
             "stress intensity factor": {
               "eng_definition": "magnitude of the mathematically ideal, crack-tip stress field for a particular mode in a homogeneous, linear-elastic body",
               "var_name": "StressIntensityFactor",
@@ -2420,24 +2360,6 @@
                 "data_type": "numeric",
                 "data_unit": "MPa m^{1/2}",
                 "data_example": 500
-              },
-              "uncertainty": {
-                "eng_definition": "uncertainty of the value",
-                "var_name": "Uncertainty",
-                "data_type": "numeric",
-                "data_unit": "same as value"
-              }
-            },
-            "stress intensity factor range": {
-              "eng_definition": "variation in the stress intensity factor in a cycle in fatigue",
-              "var_name": "StressIntensityFactorRange",
-              "alias": "",
-              "value": {
-                "eng_definition": "data value",
-                "var_name": "DataValue",
-                "data_type": "numeric",
-                "data_unit": "MPa m^{1/2}",
-                "data_example": 100
               },
               "uncertainty": {
                 "eng_definition": "uncertainty of the value",
@@ -2593,125 +2515,6 @@
                 "var_name": "DataValue",
                 "data_type": "numeric",
                 "data_unit": "K"
-              },
-              "uncertainty": {
-                "eng_definition": "uncertainty of the value",
-                "var_name": "Uncertainty",
-                "data_type": "numeric",
-                "data_unit": "same as value"
-              }
-            },
-            "measurement": {
-              "eng_definition": "mesurement method",
-              "var_name": "Measurement",
-              "alias": "characterization tools, analysis method",
-              "(analysis_n)": {
-                "eng_definition": "information of analysis method and condition",
-                "data_type": "corresponding data module for the analysis method"
-              },
-              "sample description": {
-                "eng_definition": "description of sample in any form of string, drawing or photo image, etc.",
-                "var_name": "SampleDescription",
-                "data_type": "file; string"
-              }
-            }
-          },
-          "toughness": {
-            "eng_definition": "property which describes the ability of a material containing a crack to resist further fracture",
-            "var_name": "Toughness",
-            "alias": "",
-            "Charpy impact energy": {
-              "eng_definition": "measure of the work done to fracture a test specimen",
-              "var_name": "ImpactEnergy",
-              "alias": "impact toughness",
-              "data_type": "numeric array",
-              "x_definition": {
-                "eng_definition": "define the indepedent parameter of the array",
-                "var_name": "X_definition",
-                "data_type": "array string [definition(1), x(1)_unit]",
-                "data_example": [
-                  "Temperature",
-                  "$^\\circ$C"
-                ]
-              },
-              "value_array": {
-                "eng_definition": "array data value",
-                "var_name": "ArrayDataValue",
-                "data_type": "numeric array of {x(1), x(1)_uncertainty, value, value_uncertainty}",
-                "value unit": "J (Joule)",
-                "data_example": [
-                  {
-                    "x(1)": -50,
-                    "x(1)_uncertainty": 5,
-                    "value": 20,
-                    "value_uncertainty": 5
-                  },
-                  {
-                    "x(1)": 25,
-                    "x(1)_uncertainty": 5,
-                    "value": 150,
-                    "value_uncertainty": 5
-                  }
-                ]
-              }
-            },
-            "ductile-to-brittle transition temperature": {
-              "eng_definition": "temperature at which there is a pronounced decrease in a material’s ability to absorb force without fracturing",
-              "var_name": "DBTransTemp",
-              "alias": "DBTT",
-              "value": {
-                "eng_definition": "data value",
-                "var_name": "DataValue",
-                "data_type": "numeric",
-                "data_unit": "K"
-              },
-              "uncertainty": {
-                "eng_definition": "uncertainty of the value",
-                "var_name": "Uncertainty",
-                "data_type": "numeric",
-                "data_unit": "same as value"
-              }
-            },
-            "fracture toughness": {
-              "eng_definition": "crack-extension resistance under conditions of crack-tip plane strain in mode I and predominantly linear-elastic conditions",
-              "alias": "stress intensity factor $K_{IC}$",
-              "value": {
-                "eng_definition": "data value",
-                "var_name": "DataValue",
-                "data_type": "numeric",
-                "data_unit": "MPa m^{1/2}"
-              },
-              "uncertainty": {
-                "eng_definition": "uncertainty of the value",
-                "var_name": "Uncertainty",
-                "data_type": "numeric",
-                "data_unit": "same as value"
-              }
-            },
-            "plane strain fracture toughness": {
-              "eng_definition": "crack-extension resistance under conditions of crack-tip plane strain in mode I and substantial plastic deformation",
-              "alias": "J integral $J_{IC}$",
-              "value": {
-                "eng_definition": "data value",
-                "var_name": "DataValue",
-                "data_type": "numeric",
-                "data_unit": "kJ m^{-2}"
-              },
-              "uncertainty": {
-                "eng_definition": "uncertainty of the value",
-                "var_name": "Uncertainty",
-                "data_type": "numeric",
-                "data_unit": "same as value"
-              }
-            },
-            "crack tip opening displacement": {
-              "eng_definition": "crack displacement resulting from the total deformation at variously defined locations near the original crack tip",
-              "alias": "CTOD; COD",
-              "value": {
-                "eng_definition": "data value",
-                "var_name": "DataValue",
-                "data_type": "numeric",
-                "data_unit": "mm"
               },
               "uncertainty": {
                 "eng_definition": "uncertainty of the value",
@@ -3712,7 +3515,7 @@
               "data_type": "string",
               "data_example": "liquid; solid; ferrite; austenite; fcc1+fcc2"
             },
-            "phase crystal structure": {
+            "crystal structure": {
               "eng_definition": "crystal structure of a phase_(n)",
               "var_name": "PhaseCrystalStructure",
               "alias": "",
@@ -9009,23 +8812,6 @@
               "data_unit": "same as value"
             }
           },
-          "mass": {
-            "eng_definition": "mass loading of cathode composite on current collector",
-            "var_name": "MassLoading",
-            "value": {
-              "eng_definition": "data value",
-              "var_name": "DataValue",
-              "data_type": "numeric",
-              "data_unit": "mg/cm^2",
-              "data_example": 10
-            },
-            "uncertainty": {
-              "eng_definition": "uncertainty of the value",
-              "var_name": "Uncertainty",
-              "data_type": "numeric",
-              "data_unit": "same as value"
-            }
-          },
           "thickness": {
             "eng_definition": "thickness of separator",
             "var_name": "Thickness",
@@ -9078,23 +8864,6 @@
               "data_unit": "same as value"
             }
           },
-          "mass": {
-            "eng_definition": "mass loading of cathode composite on current collector",
-            "var_name": "MassLoading",
-            "value": {
-              "eng_definition": "data value",
-              "var_name": "DataValue",
-              "data_type": "numeric",
-              "data_unit": "mg/cm^2",
-              "data_example": 10
-            },
-            "uncertainty": {
-              "eng_definition": "uncertainty of the value",
-              "var_name": "Uncertainty",
-              "data_type": "numeric",
-              "data_unit": "same as value"
-            }
-          },
           "thickness": {
             "eng_definition": "thickness of separator",
             "var_name": "Thickness",
@@ -9114,7 +8883,7 @@
           },
           "volume": {
             "eng_definition": "volume of electrolyte",
-            "var_name": "Mass",
+            "var_name": "Volume",
             "data_type": "numeric",
             "data_unit": "mL",
             "data_example": 30
@@ -9132,7 +8901,7 @@
           },
           "thickness": {
             "eng_definition": "thickness of electrolyte",
-            "var_name": "Mass",
+            "var_name": "Thickness",
             "data_type": "numeric",
             "data_unit": "μm",
             "data_example": 10
@@ -9146,7 +8915,7 @@
           },
           "volume": {
             "eng_definition": "volume of electrolyte",
-            "var_name": "Mass",
+            "var_name": "Volume",
             "data_type": "numeric",
             "data_unit": "mL",
             "data_example": 30
@@ -9251,49 +9020,49 @@
         "cathode": {
           "active material_(n)": {
             "eng_definition": "active materials (contribute to the capacity of the secondary battery) variable name for cathode",
-            "var_name": "ActiveMaterial_(n)",
+            "var_name": "ActiveMaterial",
             "alias": "AM",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "coating material_(n)": {
             "eng_definition": "coating materials for cathode active material",
-            "var_name": "CoatingMaterial_(n)",
+            "var_name": "CoatingMaterial",
             "alias": "coating",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "binder_(n)": {
             "eng_definition": "binding materials variable name for cathode",
-            "var_name": "Binder_(n)",
+            "var_name": "Binder",
             "alias": "BM, binding materials, binder materials",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "conducting material_(n)": {
             "eng_definition": "conducting materials variable name for cathode",
-            "var_name": "ConductingMaterial_(n)",
+            "var_name": "ConductingMaterial",
             "alias": "CM",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "additive_(n)": {
             "eng_definition": "additive materials for cahotde ",
-            "var_name": "Additive_(n)",
+            "var_name": "CathodeAdditive",
             "alias": "additive",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "catholyte_(n)": {
             "eng_definition": "electrolyte material for cathode",
-            "var_name": "Catholyte_(n)",
+            "var_name": "CatholyteMaterial",
             "alias": "cathode electrolyte, Electrolyte in cathode",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "current collector_(n)": {
             "eng_definition": "electrical conductor between the electrode and external circuits as well as a support for the coating of the electrode materials",
-            "var_name": "CurrentCollector_(n)",
+            "var_name": "CurrentCollector",
             "alias": "",
             "data_type": "string",
             "data_example": "Materials_3"
@@ -9302,49 +9071,49 @@
         "anode": {
           "active material_(n)": {
             "eng_definition": "active materials(contribute to the capacity of the secondary battery) variable name for anode",
-            "var_name": "ActiveMaterial_(n)",
+            "var_name": "ActiveMaterial",
             "alias": "AM",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "coating material_(n)": {
             "eng_definition": "coating materials for anode active material",
-            "var_name": "CoatingMaterial_(n)",
+            "var_name": "CoatingMaterial",
             "alias": "coating",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "binder_(n)": {
             "eng_definition": "binding materials variable name for adnoe",
-            "var_name": "Binder_(n)",
+            "var_name": "Binder",
             "alias": "BM, binding materials, binder materials",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "conducting material_(n)": {
             "eng_definition": "conducting materials variable name for anode",
-            "var_name": "ConductingMaterial_(n)",
+            "var_name": "ConductingMaterial",
             "alias": "CM",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "additive_(n)": {
             "eng_definition": "additive materials for anode",
-            "var_name": "Additive_(n)",
+            "var_name": "AnodeAdditive",
             "alias": "additive",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "anolyte_(n)": {
             "eng_definition": "electrolyte material for anode",
-            "var_name": "Anolyte_(n)",
+            "var_name": "anolyteMaterial",
             "alias": "anode electrolyte, electrolyte in anode",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "current collector_(n)": {
             "eng_definition": "electrical conductor between the electrode and external circuits as well as a support for the coating of the electrode materials",
-            "var_name": "CurrentCollector_(n)",
+            "var_name": "CurrentCollector",
             "alias": "",
             "data_type": "string",
             "data_example": "Materials_3"
@@ -9353,20 +9122,20 @@
         "electrolyte": {
           "solvent_(n)": {
             "eng_definition": "Substance that dissolves a solute, resulting in a solution",
-            "var_name": "Solvent_(n)",
+            "var_name": "solvent",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "salt_(n)": {
             "eng_definition": "It serves as a passage for alkali ions. So, ions should be easily dissolved or dissociated in a solvent, and those dissociated ions will move smoothly.",
-            "var_name": "Salt_(n)",
+            "var_name": "salt",
             "alias": "solute",
             "data_type": "string",
             "data_example": "Materials_3"
           },
           "additive_(n)": {
             "eng_definition": "additive materials for cahotde ",
-            "var_name": "Additive_(n)",
+            "var_name": "CathodeAdditive",
             "alias": "additive",
             "data_type": "string",
             "data_example": "Materials_3"
@@ -12114,7 +11883,7 @@
             "eng_definition": "used ensemble type for simulation",
             "var_name": "Type",
             "data_type": "string",
-            "data_example": "NVT; NPT"
+            "data_example": "NPT, NVT, NVE, NPH"
           },
           "thermostat": {
             "eng_definition": "type of thermostat used in the ensemble",
@@ -12173,7 +11942,7 @@
                 "eng_definition": "used ensemble type for simulation",
                 "var_name": "Type",
                 "data_type": "string",
-                "data_example": "NVT; NPT"
+                "data_example": "NPT, NVT, NVE, NPH"
               },
               "thermostat": {
                 "eng_definition": "type of thermostat used in the ensemble",
@@ -12253,7 +12022,7 @@
                 "eng_definition": "used ensemble type for simulation",
                 "var_name": "Type",
                 "data_type": "string",
-                "data_example": "NVT; NPT"
+                "data_example": "NPT, NVT, NVE, NPH"
               },
               "thermostat": {
                 "eng_definition": "type of thermostat used in the ensemble",
@@ -12352,7 +12121,7 @@
                 "eng_definition": "used ensemble type for simulation",
                 "var_name": "Type",
                 "data_type": "string",
-                "data_example": "NVT; NPT"
+                "data_example": "NPT, NVT, NVE, NPH"
               },
               "thermostat": {
                 "eng_definition": "type of thermostat used in the ensemble",
@@ -13603,21 +13372,21 @@
       },
       "gap": {
         "eng_definition": "measurment gap between geometry",
-        "var_name": "Temperature",
+        "var_name": "Gap",
         "data_type": "numeric",
         "data_unit": "mm",
         "data_example": 1
       },
       "geometry": {
         "eng_definition": "geometrical condition for measurment",
-        "var_name": "Temperature",
+        "var_name": "Geometry",
         "data_type": "string",
         "data_unit": "unitless",
         "data_example": "plate-plate"
       },
       "material": {
         "eng_definition": "material of measurement equipment",
-        "var_name": "Temperature",
+        "var_name": "Material",
         "data_type": "string",
         "data_unit": "unitless",
         "data_example": "Aluminium"
@@ -14642,7 +14411,7 @@
         "data_unit": "Torr",
         "data_example": 0.000015
       },
-      "growth rate": {
+      "growth per cycle": {
         "eng_definition": "deposited film thickness per cycle",
         "var_name": "GrowthRate",
         "data_type": "numeric",
@@ -14836,7 +14605,7 @@
         "data_unit": "Torr",
         "data_example": 0.000015
       },
-      "etch rate": {
+      "etch per cycle": {
         "eng_definition": "etching thickness per cycle",
         "var_name": "EtchRate",
         "data_type": "numeric",
@@ -14914,12 +14683,6 @@
         "var_name": "BallMaterial",
         "data_type": "string",
         "data_example": "Stainless steel; Zirconium oxide; Silicon nitride"
-      },
-      "ball shape": {
-        "eng_def": "shape of ball",
-        "var_name": "BallSahpe",
-        "data_type": "string",
-        "data_example": "spherical; polyhedron; ellipsoid"
       },
       "ball size": {
         "eng_def": "diameter of ball",
@@ -16130,7 +15893,7 @@
         "alias": "poling"
       }
     },
-    "gravity casting": {
+    "casting": {
       "eng_definition": "process of transferring molten metals to a mold by the gravity assistance",
       "var_name": "gravityCasting",
       "alias": "",
@@ -16265,7 +16028,7 @@
         "data_example": 973
       },
       "heating rate": {
-        "eng_definition": "temperature at which heat treatment process is performed",
+        "eng_definition": "rate at which the temperature is increased",
         "var_name": "HeatTreatmentTemperature",
         "data_type": "numeric",
         "data_unit": "K min^{-1}",
@@ -16279,7 +16042,7 @@
         "data_example": 300
       },
       "cooling rate": {
-        "eng_definition": "temperature at which heat treatment process is performed",
+        "eng_definition": "rate at which the temperature is decreased",
         "var_name": "HeatTreatmentTemperature",
         "data_type": "numeric",
         "data_unit": "K min^{-1}",
@@ -16674,7 +16437,7 @@
     "powder bed fusion": {
       "eng_definition": "an additive manufacturing process in which thermal energy selectively fuses regions of a powder bed",
       "var_name": "powderBedFusion",
-      "PBF type": {
+      "PBF heat source": {
         "eng_definition": "type of PBF process which use either a laser or electron beam to melt and fuse material powder",
         "var_name": "PBFType",
         "alias": "",
@@ -16740,7 +16503,7 @@
           "data_unit": "same as value"
         }
       },
-      "scan spacing": {
+      "hatch spacing": {
         "eng_definition": "separation between two consecutive laser beams",
         "var_name": "scanSpacing",
         "alias": "hatch spacing",
@@ -17052,8 +16815,8 @@
         "data_example": 300
       },
       "humidity": {
-        "eng_definition": "mixing temperature",
-        "var_name": "Temperature",
+        "eng_definition": "the concentration of water vapor present in the air",
+        "var_name": "Humidity",
         "data_type": "numeric",
         "data_unit": "%",
         "data_example": 30
@@ -17202,14 +16965,14 @@
         "eng_definition": "temperature at which heat treatment process is performed",
         "var_name": "HeatTreatmentTemperature",
         "data_type": "numeric",
-        "data_unit": "C min^{-1}",
+        "data_unit": "K min^{-1}",
         "data_example": 5
       },
       "cooling rate": {
         "eng_definition": "temperature at which heat treatment process is performed",
         "var_name": "HeatTreatmentTemperature",
         "data_type": "numeric",
-        "data_unit": "C min^{-1}",
+        "data_unit": "K min^{-1}",
         "data_example": 5
       }
     },
