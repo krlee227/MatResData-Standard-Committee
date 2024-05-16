@@ -4,7 +4,7 @@
 
 2021년 3월, 소재연구데이터센터의 위탁을 받아 활동하고 있습니다.  
 
-표준화된 스키마와 데이터 어휘는 json 포맷의 사전형태로 발간하고 있으며, 지금까지 2021-1 (2021년 12월), 2022-1 (2022년 8월), 2022-2 (2022년 12월), 2023-1 (2023년 10월) 버전들이 발표되었습니다. 
+표준화된 스키마와 데이터 어휘는 json 포맷의 사전형태로 발간하고 있으며, 지금까지 2021-1 (2021년 12월), 2022-1 (2022년 8월), 2022-2 (2022년 12월), 2023-1 (2023년 10월), 2023-2 (2024년 3월) 버전들이 발표되었습니다. 
 
 Main Branch 화일목록
 
@@ -19,7 +19,7 @@ The committee was launched in March 2021, as an affiliated organization of the C
 
 Standard schema and vocabularies were periodically published in the form of dictonary of json format. 
 
-As of Aug. 2022, two versions of the dictionary were published : version 2021-1 (Dec. 2021), version 2022-1 (Aug. 2022), version 2022-2 (Dec. 2022), version 2023-1 (Oct. 2023).   
+As of Aug. 2022, two versions of the dictionary were published : version 2021-1 (Dec. 2021), version 2022-1 (Aug. 2022), version 2022-2 (Dec. 2022), version 2023-1 (Oct. 2023), version 2023-2 (Mar. 2024).   
 Each version can be downloaded from the sub-branches of the Main.
 
 File list in Main Branch. 
