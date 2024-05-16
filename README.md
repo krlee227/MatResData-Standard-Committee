@@ -19,7 +19,7 @@ The committee was launched in March 2021, as an affiliated organization of the C
 
 Standard schema and vocabularies were periodically published in the form of dictonary of json format. 
 
-As of Aug. 2022, two versions of the dictionary were published : version 2021-1 (Dec. 2021), version 2022-1 (Aug. 2022), version 2022-2 (Dec. 2022), version 2023-1 (Oct. 2023), version 2023-2 (Mar. 2024).   
+Following versions of the dictionary were published upto now : version 2021-1 (Dec. 2021), version 2022-1 (Aug. 2022), version 2022-2 (Dec. 2022), version 2023-1 (Oct. 2023), version 2023-2 (Mar. 2024).   
 Each version can be downloaded from the sub-branches of the Main.
 
 File list in Main Branch. 
