@@ -1,1 +1,1 @@
-Version 2024-1 finalized in the committee on Oct. 4, 2024 and being under approvement process.
+Dictionary V. 2024-1 released on Oct. 18, 2024
