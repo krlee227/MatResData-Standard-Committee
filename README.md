@@ -13,7 +13,7 @@ File list in Main Branch.
 1. "Guide for Dictionary English 241125.pdf" : English Guide for the dictionary preparation including allowed unit expression (2024.11.25) 
 2. "Presentation @ NIST 221014.pdf" : Viewgraphs of Seminar @ NIST "Materials R&D Data Shema and Standard Vocabulary" (2022.10.14)
 3. "Paper 재료마당 Jaeryo Madang (2022).pdf" : Paper published in Jaeryo Madang "Structure of Materials R&D Data and Standard Vocabulary Dictionary" (in Korean, 2022.1.)
-4. "presentation@AMDS2024-241116.pdf" : Viewgraphs of keynote presention at the Asian Materials Data Symposium 2024 held in Ningde, China (2024.11.16)
+4. "presentation @ AMDS2024-241116.pdf" : Viewgraphs of keynote presention at the Asian Materials Data Symposium 2024 held in Ningde, China (2024.11.16)
    
 
 # 소재연구데이터 표준화 전문위원회
@@ -29,4 +29,4 @@ Main Branch 화일목록
 1. "Guide for Dictionary English 241125.pdf" : 단위표현이 포함된 사전작성 영문 가이드 (2024.11.25) 
 2. "Presentation @ NIST 221014.pdf" : Seminar @ NIST "Materials R&D Data Schema and Standard Vocabulary" (2022.10.14)
 3. "Paper 재료마당 Jaeryo Madang (2022).pdf" : 금속재료학회 재료마당 발표 논문 "Structure of Materials R&D Data and Standard Vocabulary Dictionary" (2022.1.)
-4. "presentation@AMDS2024-241116.pdf" : 키노트 강연 the Asian Materials Data Symposium 2024 (Ningde, China, 2024.11.16)
+4. "presentation @ AMDS2024-241116.pdf" : 키노트 강연 the Asian Materials Data Symposium 2024 (Ningde, China, 2024.11.16)
