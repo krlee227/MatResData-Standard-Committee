@@ -15,6 +15,8 @@ File list in Main Branch.
 3. "Paper 재료마당 Jaeryo Madang (2022).pdf" : Paper published in Jaeryo Madang "Structure of Materials R&D Data and Standard Vocabulary Dictionary" (in Korean, 2022.1.)
 4. "presentation @ AMDS2024-241116.pdf" : Viewgraphs of keynote presention at the Asian Materials Data Symposium 2024 held in Ningde, China (2024.11.16)
    
+=============================================================
+
 
 # 소재연구데이터 표준화 전문위원회
 
